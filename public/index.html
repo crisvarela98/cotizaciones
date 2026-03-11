@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dashboard Cotizaciones</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<h1>Dashboard de Cotización de Proveedores</h1>
+
+<div class="form">
+
+<input id="producto" placeholder="Producto">
+
+<input id="proveedor" placeholder="Proveedor">
+
+<input id="precio" type="number" placeholder="Precio">
+
+<button onclick="agregar()">Agregar</button>
+
+<button onclick="exportarExcel()">Exportar Excel</button>
+
+</div>
+
+<table id="tabla">
+
+<thead>
+<tr>
+<th>Producto</th>
+<th>Proveedor</th>
+<th>Precio</th>
+<th>Diferencia %</th>
+<th>Alerta</th>
+</tr>
+</thead>
+
+<tbody></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
